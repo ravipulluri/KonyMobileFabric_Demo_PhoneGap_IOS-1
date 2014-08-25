@@ -1,2 +1,2 @@
-KonyMobileFabric_Demo_PhoneGap_IOS
-==================================
+Kony MobileFabric Demo PhoneGap - IOS
+=====================================
