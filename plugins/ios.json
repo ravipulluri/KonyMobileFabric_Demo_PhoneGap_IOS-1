@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "config.xml": {
+            "/*": {
+                "<feature name=\"PushPlugin\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>": 1,
+                "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>": 1,
+                "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>": 1,
+                "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>": 1
+            }
+        },
+        "framework": {
+            "CoreGraphics.framework": {
+                "false": 2
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.popcorn.mbaas"
+        },
+        "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.popcorn.mbaas"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.popcorn.mbaas"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "com.popcorn.mbaas"
+        }
+    },
+    "dependent_plugins": {}
+}

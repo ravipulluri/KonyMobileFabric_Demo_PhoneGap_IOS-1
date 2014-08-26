@@ -1,0 +1,1923 @@
+TMBaaS
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Script-304B58A110DAC018002A0835.sh
+cCpResource MBaaS/Resources/icons/icon-76.png build/emulator/MBaaS.app/icon-76.png
+cCpResource MBaaS/Resources/icons/icon-40@2x.png build/emulator/MBaaS.app/icon-40@2x.png
+cCpResource MBaaS/Resources/icons/icon-72.png build/emulator/MBaaS.app/icon-72.png
+cCpResource MBaaS/Resources/icons/icon.png build/emulator/MBaaS.app/icon.png
+cCpResource MBaaS/Resources/icons/icon@2x.png build/emulator/MBaaS.app/icon@2x.png
+cCopyStringsFile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj/Localizable.strings MBaaS/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.xib
+cCpResource MBaaS/Resources/icons/icon-50.png build/emulator/MBaaS.app/icon-50.png
+cCpResource MBaaS/Resources/icons/icon-60@2x.png build/emulator/MBaaS.app/icon-60@2x.png
+cCopyStringsFile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj/Localizable.strings MBaaS/Resources/de.lproj/Localizable.strings
+cCpResource MBaaS/Resources/icons/icon-small.png build/emulator/MBaaS.app/icon-small.png
+cCpResource MBaaS/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png
+cCpResource MBaaS/Resources/splash/Default-Landscape~ipad.png build/emulator/MBaaS.app/Default-Landscape~ipad.png
+cCpResource MBaaS/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png
+cCpResource MBaaS/Resources/icons/icon-small@2x.png build/emulator/MBaaS.app/icon-small@2x.png
+cCpResource MBaaS/Resources/splash/Default-Portrait~ipad.png build/emulator/MBaaS.app/Default-Portrait~ipad.png
+cCpResource MBaaS/Resources/icons/icon-40.png build/emulator/MBaaS.app/icon-40.png
+cCpResource MBaaS/Resources/splash/Default@2x~iphone.png build/emulator/MBaaS.app/Default@2x~iphone.png
+cCpResource MBaaS/Resources/icons/icon-60.png build/emulator/MBaaS.app/icon-60.png
+cCpResource MBaaS/Resources/splash/Default~iphone.png build/emulator/MBaaS.app/Default~iphone.png
+cCpResource MBaaS/Resources/splash/Default-568h@2x~iphone.png build/emulator/MBaaS.app/Default-568h@2x~iphone.png
+cCpResource MBaaS/Resources/icons/icon-50@2x.png build/emulator/MBaaS.app/icon-50@2x.png
+cCpResource MBaaS/Resources/icons/icon-76@2x.png build/emulator/MBaaS.app/icon-76@2x.png
+cCpResource MBaaS/Resources/icons/icon-72@2x.png build/emulator/MBaaS.app/icon-72@2x.png
+cProcessPCH /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS normal i386
+cGenerateDSYMFile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+cTouch /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000537C632600000000000003B4
+t1400660774
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000537C6330000000000000019E
+t1400660784
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000537C63320000000000484210
+t1400660786
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000537C63320000000000098030
+t1400660786
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000537C63320000000000059340
+t1400660786
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000537C633300000000005B82F0
+t1400660787
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000537C63330000000000446820
+t1400660787
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000537C633300000000000F1A80
+t1400660787
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000537C6333000000000013B8C0
+t1400660787
+s1292480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000537C6335000000000088D8C0
+t1400660789
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000537C633600000000001BE790
+t1400660790
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000537C633B0000000001F1DE10
+t1400660795
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000537C634F00000000002BC360
+t1400660815
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000537C63580000000000002338
+t1400660824
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000537C6359000000000008D370
+t1400660825
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000537C63590000000000392E20
+t1400660825
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c00000000524AF64400000000000121D0
+t1380644420
+s74192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000537C63590000000000014A80
+t1400660825
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000537C63590000000000033BA0
+t1400660825
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000537C6359000000000001CFB0
+t1400660825
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000537C6359000000000001B2B0
+t1400660825
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000537C635900000000000C9570
+t1400660825
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000537C63590000000000063280
+t1400660825
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000537C63590000000000008880
+t1400660825
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000537C63590000000000015080
+t1400660825
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000537C635900000000000230F0
+t1400660825
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000537C6359000000000000E380
+t1400660825
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000537C63590000000000089380
+t1400660825
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000537C63590000000000017320
+t1400660825
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000537C63590000000000039CD0
+t1400660825
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000537C6359000000000000B0B0
+t1400660825
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000537C635A0000000000167E80
+t1400660826
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000537C635900000000000106A0
+t1400660825
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000537C6359000000000001CE40
+t1400660825
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000537C635A00000000000740C0
+t1400660826
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000537C635A000000000006CA60
+t1400660826
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000537C6359000000000001BAD0
+t1400660825
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000537C635A0000000000084A20
+t1400660826
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+c00000000537C63BF000000000000BB48
+t1400660927
+s47944
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000537C63BF000000000000514C
+t1400660927
+s20812
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.h
+c0000000053A4044D00000000000005AF
+t1403257933
+s1455
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.m
+c0000000053A4044D00000000000013A1
+t1403257933
+s5025
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.h
+c0000000053A4044D00000000000004CB
+t1403257933
+s1227
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.m
+c0000000053A4120C0000000000001346
+t1403261452
+s4934
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.xib
+c0000000053A4044D0000000000001759
+t1403257933
+s5977
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist
+c0000000053A830350000000000000A0D
+t1403531317
+s2573
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch
+c0000000053A4044D00000000000003BB
+t1403257933
+s955
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.h
+c0000000053A4045000000000000002B2
+t1403257936
+s690
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m
+c0000000053A404500000000000000FDA
+t1403257936
+s4058
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.h
+c0000000053A40450000000000000086E
+t1403257936
+s2158
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m
+c0000000053A4271B00000000000025A4
+t1403266843
+s9636
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.h
+c0000000053A4045000000000000003BD
+t1403257936
+s957
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.m
+c0000000053A404500000000000000C22
+t1403257936
+s3106
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.h
+c0000000053A404500000000000000F22
+t1403257936
+s3874
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m
+c0000000053A404500000000000009EA7
+t1403257936
+s40615
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.h
+c0000000053A40450000000000000044D
+t1403257936
+s1101
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+c0000000053A404500000000000002666
+t1403257936
+s9830
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/de.lproj/Localizable.strings
+c0000000053A4044D00000000000004C0
+t1403257933
+s1216
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/en.lproj/Localizable.strings
+c0000000053A4044D00000000000004AB
+t1403257933
+s1195
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-40.png
+c0000000053A1BF6E0000000000004049
+t1403109230
+s16457
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-40@2x.png
+c0000000053A1BF6E000000000000462C
+t1403109230
+s17964
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-50.png
+c0000000053A1BF6E0000000000004166
+t1403109230
+s16742
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-50@2x.png
+c0000000053A1BF6E0000000000004939
+t1403109230
+s18745
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-60.png
+c0000000053A1BF6E00000000000042F1
+t1403109230
+s17137
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-60@2x.png
+c0000000053A1BF6E0000000000004C8A
+t1403109230
+s19594
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-72.png
+c0000000053A1BF6E00000000000044F4
+t1403109230
+s17652
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-72@2x.png
+c0000000053A1BF6E0000000000004B64
+t1403109230
+s19300
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-76.png
+c0000000053A1BF6E000000000000458D
+t1403109230
+s17805
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-76@2x.png
+c0000000053A1BF6E0000000000005260
+t1403109230
+s21088
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-small.png
+c0000000053A1BF6E0000000000003EB6
+t1403109230
+s16054
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-small@2x.png
+c0000000053A1BF6E0000000000004290
+t1403109230
+s17040
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon.png
+c0000000053A1BF6E0000000000004364
+t1403109230
+s17252
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon@2x.png
+c0000000053A1BF6E0000000000004B64
+t1403109230
+s19300
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-568h@2x~iphone.png
+c0000000053A1892C000000000010067C
+t1403095340
+s1050236
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053A401E80000000000326DA3
+t1403257320
+s3304867
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-Landscape~ipad.png
+c0000000053A4019600000000000DFA3C
+t1403257238
+s916028
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000053A40178000000000025A5F1
+t1403257208
+s2467313
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-Portrait~ipad.png
+c0000000053A4010800000000000D55F7
+t1403257096
+s873975
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default@2x~iphone.png
+c0000000053A7C3C600000000000CDA23
+t1403503558
+s842275
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default~iphone.png
+c0000000053A7C3AA000000000003FDED
+t1403503530
+s261613
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/main.m
+c0000000053A4044D0000000000000457
+t1403257933
+s1111
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o
+t1403518711
+s66908
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o
+t1403518711
+s73956
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o
+t1403518711
+s50312
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o
+t1403518711
+s223752
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o
+t1403518711
+s74028
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MBaaS.LinkFileList
+c0000000053A4048C0000000000000462
+t1403257996
+s1122
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o
+t1403518711
+s52352
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o
+t1403518711
+s67012
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o
+t1403518711
+s2964
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Script-304B58A110DAC018002A0835.sh
+c0000000053A4048C000000000000002D
+t1403257996
+s45
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app
+t1403531323
+s1020
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM
+t1403529789
+s102
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-568h@2x~iphone.png
+t1403257996
+s34225
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png
+t1403260773
+s3304867
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape~ipad.png
+t1403260773
+s916028
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png
+t1403260773
+s2467313
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait~ipad.png
+t1403260773
+s873975
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png
+t1403518710
+s842275
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png
+t1403518710
+s261613
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist
+t1403531322
+s1271
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+t1403518714
+s411684
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MainViewController.nib
+t1403260784
+s836
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/PkgInfo
+t2
+s0
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj/Localizable.strings
+t1403257996
+s280
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj/Localizable.strings
+t1403257996
+s166
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40.png
+t1403257996
+s4082
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40@2x.png
+t1403257996
+s7411
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50.png
+t1403257996
+s4874
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50@2x.png
+t1403257996
+s9611
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60.png
+t1403257996
+s5811
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60@2x.png
+t1403257996
+s11924
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72.png
+t1403257996
+s4944
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72@2x.png
+t1403257996
+s11706
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76.png
+t1403257996
+s7025
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76@2x.png
+t1403257996
+s15262
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small.png
+t1403257996
+s3294
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small@2x.png
+t1403257996
+s5608
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon.png
+t1403257996
+s3902
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon@2x.png
+t1403257996
+s7869
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
+c0000000053A404870000000000000516
+t1403257991
+s1302
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+c0000000053A404870000000000000CDD
+t1403257991
+s3293
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+c0000000053A4048700000000000008BA
+t1403257991
+s2234
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+c0000000053A4048700000000000004B5
+t1403257991
+s1205
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+c0000000053A404870000000000000503
+t1403257991
+s1283
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+c0000000053A404870000000000000401
+t1403257991
+s1025
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+c0000000053A4048700000000000007E6
+t1403257991
+s2022
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+c0000000053A4048700000000000003DA
+t1403257991
+s986
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+c0000000053A4048700000000000006CF
+t1403257991
+s1743
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+c0000000053A404870000000000000892
+t1403257991
+s2194
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+c0000000053A404870000000000000C13
+t1403257991
+s3091
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000053A404870000000000000408
+t1403257991
+s1032
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+c0000000053A40487000000000000038D
+t1403257991
+s909
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+c0000000053A40487000000000000041C
+t1403257991
+s1052
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+c0000000053A404870000000000000421
+t1403257991
+s1057
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+c0000000053A404870000000000000ACC
+t1403257991
+s2764
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+c0000000053A4048700000000000005A2
+t1403257991
+s1442
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+c0000000053A4048700000000000004B4
+t1403257991
+s1204
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+c0000000053A404870000000000000392
+t1403257991
+s914
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+c0000000053A40487000000000000037D
+t1403257991
+s893
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+c0000000053A4048700000000000005DA
+t1403257991
+s1498
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000053A4048700000000000003A0
+t1403257991
+s928
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+c0000000053A404870000000000000476
+t1403257991
+s1142
+
+N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a
+c0000000053A7FEF500000000000D29B8
+t1403518709
+s862648
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app
+t1403275091
+s1020
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM
+t1403272790
+s102
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-568h@2x~iphone.png
+t1403257996
+s34225
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png
+t1403260773
+s3304867
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape~ipad.png
+t1403260773
+s916028
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png
+t1403260773
+s2467313
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait~ipad.png
+t1403260773
+s873975
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png
+t1403257996
+s29475
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png
+t1403257996
+s10394
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist
+t1403275089
+s1271
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+t1403266871
+s411684
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MainViewController.nib
+t1403260784
+s836
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/PkgInfo
+t2
+s0
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj/Localizable.strings
+t1403257996
+s280
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj/Localizable.strings
+t1403257996
+s166
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40.png
+t1403257996
+s4082
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40@2x.png
+t1403257996
+s7411
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50.png
+t1403257996
+s4874
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50@2x.png
+t1403257996
+s9611
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60.png
+t1403257996
+s5811
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60@2x.png
+t1403257996
+s11924
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72.png
+t1403257996
+s4944
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72@2x.png
+t1403257996
+s11706
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76.png
+t1403257996
+s7025
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76@2x.png
+t1403257996
+s15262
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small.png
+t1403257996
+s3294
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small@2x.png
+t1403257996
+s5608
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon.png
+t1403257996
+s3902
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon@2x.png
+t1403257996
+s7869
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
+c0000000053A404870000000000000516
+t1403257991
+s1302
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+c0000000053A404870000000000000CDD
+t1403257991
+s3293
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+c0000000053A4048700000000000008BA
+t1403257991
+s2234
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+c0000000053A4048700000000000004B5
+t1403257991
+s1205
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+c0000000053A404870000000000000503
+t1403257991
+s1283
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+c0000000053A404870000000000000401
+t1403257991
+s1025
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+c0000000053A4048700000000000007E6
+t1403257991
+s2022
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+c0000000053A4048700000000000003DA
+t1403257991
+s986
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+c0000000053A4048700000000000006CF
+t1403257991
+s1743
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+c0000000053A404870000000000000892
+t1403257991
+s2194
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+c0000000053A404870000000000000C13
+t1403257991
+s3091
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000053A404870000000000000408
+t1403257991
+s1032
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+c0000000053A40487000000000000038D
+t1403257991
+s909
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+c0000000053A40487000000000000041C
+t1403257991
+s1052
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+c0000000053A404870000000000000421
+t1403257991
+s1057
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+c0000000053A404870000000000000ACC
+t1403257991
+s2764
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+c0000000053A4048700000000000005A2
+t1403257991
+s1442
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+c0000000053A4048700000000000004B4
+t1403257991
+s1204
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+c0000000053A404870000000000000392
+t1403257991
+s914
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+c0000000053A40487000000000000037D
+t1403257991
+s893
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+c0000000053A4048700000000000005DA
+t1403257991
+s1498
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000053A4048700000000000003A0
+t1403257991
+s928
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+c0000000053A404870000000000000476
+t1403257991
+s1142
+
+N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a
+c0000000053A40F6500000000000D29B8
+t1403260773
+s862648
+
+N/usr/lib/libSystem.B.dylib
+c00000000524AF62B000000000000D2A0
+t1380644395
+s53920
+
+N/usr/lib/system/libcache.dylib
+c00000000524AF6440000000000013870
+t1380644420
+s79984
+
+N/usr/lib/system/libcommonCrypto.dylib
+c00000000524B57770000000000030250
+t1380669303
+s197200
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000524AF62B0000000000017910
+t1380644395
+s96528
+
+N/usr/lib/system/libcopyfile.dylib
+c00000000524AF642000000000001A130
+t1380644418
+s106800
+
+N/usr/lib/system/libdnsinfo.dylib
+c00000000524B57F3000000000000C2A0
+t1380669427
+s49824
+
+N/usr/lib/system/libdyld.dylib
+c00000000524AF64400000000000121D0
+t1380644420
+s74192
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000524AF6440000000000008CE0
+t1380644420
+s36064
+
+N/usr/lib/system/liblaunch.dylib
+c00000000524B57F9000000000001D350
+t1380669433
+s119632
+
+N/usr/lib/system/libmacho.dylib
+c00000000524AF6420000000000014F90
+t1380644418
+s85904
+
+N/usr/lib/system/libquarantine.dylib
+c00000000524B5805000000000000D790
+t1380669445
+s55184
+
+N/usr/lib/system/libremovefile.dylib
+c00000000524B5805000000000000C330
+t1380669445
+s49968
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000524AF644000000000000A080
+t1380644420
+s41088
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000524B57B200000000001F91C0
+t1380669362
+s2068928
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000524B57FA000000000001BC00
+t1380669434
+s113664
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000524AF62B000000000008B580
+t1380644395
+s570752
+
+N/usr/lib/system/libsystem_kernel.dylib
+c00000000528EE1BE00000000000569B0
+t1385095614
+s354736
+
+N/usr/lib/system/libsystem_m.dylib
+c00000000524AF62B0000000000070540
+t1380644395
+s460096
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000524AF62B0000000000025620
+t1380644395
+s153120
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000524B57DD000000000000C780
+t1380669405
+s51072
+
+N/usr/lib/system/libunc.dylib
+c00000000524AF63B000000000000D430
+t1380644411
+s54320
+
+N/usr/lib/system/libunwind.dylib
+c00000000524AF645000000000001BAA0
+t1380644421
+s113312
+
+N/var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-azenbtvldkhnyceemwyqqsdjexlr/MBaaS-Prefix.pch.pch
+t1403258010
+s5373740
+
+N/var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-cxjyzphjyufbbsdnsqqklhvurkod/MBaaS-Prefix.pch.pch
+t1403260784
+s5376952
+
+N/var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.pch
+t1403518710
+s5376952
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies27a18cba6758b941^0d8c9cba6758b941^---0#1#1#--18"Check dependencies36"B30961AA-D03C-4337-AA82-09CE4104125A-
+
+CCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211511.115226
+e425211511.358091
+r1
+xCompileC
+xbuild/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m264"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o [1mMBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2aab1d773658b941^86045c773658b941^---0#0#1#-19%DVTDocumentLocation2@140"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m0000000000000000^3814"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o [1mMBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/AppDelegate+notification.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o36"9DECE94D-50F5-47D6-BB7B-A748635F6C40-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211511.113688
+e425211511.357993
+r1
+xCompileC
+xbuild/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.m
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.m206"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o [1mMBaaS/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler79571d773658b941^b0ad5b773658b941^---0#0#1#-19%DVTDocumentLocation2@95"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.m0000000000000000^3672"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o [1mMBaaS/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/AppDelegate.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o36"E3C7F615-CDC8-45AF-A52E-1C1AA01604CC-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211511.313113
+e425211511.506472
+r1
+xCompileC
+xbuild/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.m
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.m228"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o [1mMBaaS/Plugins/org.apache.cordova.device/CDVDevice.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7a5050773658b941^69a881773658b941^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.m0000000000000000^3712"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o [1mMBaaS/Plugins/org.apache.cordova.device/CDVDevice.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.device/CDVDevice.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o36"C972CC0A-8314-4D84-97EB-723FB7287024-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211511.359599
+e425211511.623248
+r1
+xCompileC
+xbuild/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m246"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o [1mMBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler94335c773658b941^a48d9f773658b941^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m0000000000000000^3760"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o [1mMBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o36"83988778-D4F4-4365-B57B-27956ECA715A-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211511.360362
+e425211511.499159
+r1
+xCompileC
+xbuild/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m246"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o [1mMBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf6625c773658b941^580380773658b941^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m0000000000000000^3760"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o [1mMBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o36"64CC1901-B881-48F5-BC6B-C99D55D48F4E-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211511.115252
+e425211511.311592
+r1
+xCompileC
+xbuild/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.m
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.m220"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o [1mMBaaS/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4fb21d773658b941^9fc84f773658b941^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.m0000000000000000^3714"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o [1mMBaaS/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o36"A4F438E4-8779-4639-AF79-9A563C426DFA-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211511.203743
+e425211511.357983
+r1
+xCompileC
+xbuild/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m236"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o [1mMBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler825634773658b941^82a85b773658b941^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m0000000000000000^3730"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o [1mMBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Plugins/com.phonegap.plugins.PushPlugin/PushPlugin.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o36"7435C281-F661-4483-889F-B6F08F88E538-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCompileC build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211511.113688
+e425211511.201415
+r1
+xCompileC
+xbuild/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/main.m184"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o [1mMBaaS/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler36571d773658b941^c0cc33773658b941^---0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/main.m0000000000000000^3614"[1mCompileC[0m build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o [1mMBaaS/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/main.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o36"5D04907A-5FA6-4D77-AFB2-98D67B8E76CE-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCompileXIB /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.xib
+s424953573.806386
+e424953584.292919
+r1
+xCompileXIB
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.xib63"[1mCompileXIB[0m [1mMBaaS/Classes/MainViewController.xib[0m1285cee54654b941^adfc4af04654b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.xib0000000000000000^827"[1mCompileXIB[0m [1mMBaaS/Classes/MainViewController.xib[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MainViewController.nib /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Classes/MainViewController.xib36"044A31DF-0E95-4C17-8A13-C48EAE45349F-
+b80F0EF2E-EEE2-4314-B185-7A0F97B1F3D1
+
+CCopyStringsFile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj/Localizable.strings MBaaS/Resources/de.lproj/Localizable.strings
+r0
+
+CCopyStringsFile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj/Localizable.strings MBaaS/Resources/en.lproj/Localizable.strings
+r0
+
+CCopyStringsFile /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj/Localizable.strings MBaaS/Resources/de.lproj/Localizable.strings
+s424950796.436503
+e424950796.479736
+r1
+xCopyStringsFile
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj/Localizable.strings
+xMBaaS/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy MBaaS/Resources/de.lproj/Localizable.strings174"[1mCopyStringsFile[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj/Localizable.strings MBaaS/Resources/de.lproj/Localizable.strings45d96f0c3c54b941^45d67a0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/de.lproj/Localizable.strings0000000000000000^668"[1mCopyStringsFile[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj/Localizable.strings MBaaS/Resources/de.lproj/Localizable.strings    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/de.lproj -- MBaaS/Resources/de.lproj/Localizable.strings36"4C4776F9-CACA-45D6-BF92-AB8D7AD20120-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCopyStringsFile /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj/Localizable.strings MBaaS/Resources/en.lproj/Localizable.strings
+s424950796.432288
+e424950796.435818
+r1
+xCopyStringsFile
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj/Localizable.strings
+xMBaaS/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy MBaaS/Resources/en.lproj/Localizable.strings174"[1mCopyStringsFile[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj/Localizable.strings MBaaS/Resources/en.lproj/Localizable.stringse8db6e0c3c54b941^739c6f0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/en.lproj/Localizable.strings0000000000000000^668"[1mCopyStringsFile[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj/Localizable.strings MBaaS/Resources/en.lproj/Localizable.strings    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/en.lproj -- MBaaS/Resources/en.lproj/Localizable.strings36"FD799FC5-DDF7-492D-8BE8-09B6FE767AD3-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-40.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40.png
+s424950796.476839
+e424950796.479623
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-40.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40.png149"[1mCpResource[0m MBaaS/Resources/icons/icon-40.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40.png[0mee247a0c3c54b941^f4c57a0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40.png00384833dcffdf42^694"[1mCpResource[0m MBaaS/Resources/icons/icon-40.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-40.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"27753EFE-C16E-414F-A6FE-B1B969F5CFF4-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-40.png build/emulator/MBaaS.app/icon-40.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-40@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40@2x.png
+s424950796.426614
+e424950796.432279
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-40@2x.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40@2x.png155"[1mCpResource[0m MBaaS/Resources/icons/icon-40@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40@2x.png[0mc1526d0c3c54b941^5eb96e0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40@2x.png00384833dcffdf42^703"[1mCpResource[0m MBaaS/Resources/icons/icon-40@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-40@2x.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-40@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"A840CC1E-6B76-44A2-A0B4-B2E445F16933-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-40@2x.png build/emulator/MBaaS.app/icon-40@2x.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-50.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50.png
+s424950796.434643
+e424950796.438323
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-50.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50.png149"[1mCpResource[0m MBaaS/Resources/icons/icon-50.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50.png[0m3a776f0c3c54b941^4948700c3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50.png00384833dcffdf42^694"[1mCpResource[0m MBaaS/Resources/icons/icon-50.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-50.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"624BEA8B-FD13-4EFE-8E1B-470CF036AA93-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-50.png build/emulator/MBaaS.app/icon-50.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-50@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50@2x.png
+s424950796.486875
+e424950796.490022
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-50@2x.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50@2x.png155"[1mCpResource[0m MBaaS/Resources/icons/icon-50@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50@2x.png[0mc6be7c0c3c54b941^fa7f7d0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50@2x.png00384833dcffdf42^703"[1mCpResource[0m MBaaS/Resources/icons/icon-50@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-50@2x.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-50@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"01A75E0F-277E-4571-AA49-8268A2EB94A3-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-50@2x.png build/emulator/MBaaS.app/icon-50@2x.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-60.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60.png
+s424950796.480248
+e424950796.485437
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-60.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60.png149"[1mCpResource[0m MBaaS/Resources/icons/icon-60.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60.png[0m72fe7a0c3c54b941^cb4d7c0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60.png00384833dcffdf42^694"[1mCpResource[0m MBaaS/Resources/icons/icon-60.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-60.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"7271D36A-66B9-44F5-871C-3A56FEBD0875-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-60.png build/emulator/MBaaS.app/icon-60.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-60@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60@2x.png
+s424950796.436470
+e424950796.464611
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-60@2x.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60@2x.png155"[1mCpResource[0m MBaaS/Resources/icons/icon-60@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60@2x.png[0m02d96f0c3c54b941^bff0760c3c54b941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60@2x.png00384833dcffdf42^703"[1mCpResource[0m MBaaS/Resources/icons/icon-60@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-60@2x.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-60@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"A55BA33F-E1EC-483B-9E26-BD2A494F8E52-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-60@2x.png build/emulator/MBaaS.app/icon-60@2x.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-72.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72.png
+s424950796.426794
+e424950796.431081
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-72.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72.png149"[1mCpResource[0m MBaaS/Resources/icons/icon-72.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72.png[0m33546d0c3c54b941^0e6b6e0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72.png00384833dcffdf42^694"[1mCpResource[0m MBaaS/Resources/icons/icon-72.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-72.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"B534790D-77D4-4387-BD9F-F469B997B490-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-72.png build/emulator/MBaaS.app/icon-72.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-72@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72@2x.png
+s424950796.488947
+e424950796.500885
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-72@2x.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72@2x.png155"[1mCpResource[0m MBaaS/Resources/icons/icon-72@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72@2x.png[0m18437d0c3c54b941^eb3a800c3c54b941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72@2x.png00384833dcffdf42^703"[1mCpResource[0m MBaaS/Resources/icons/icon-72@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-72@2x.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-72@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"A7AE7344-222F-46E3-B2F3-3D26206210B4-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-72@2x.png build/emulator/MBaaS.app/icon-72@2x.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-76.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76.png
+s424950796.426609
+e424950796.429572
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-76.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76.png149"[1mCpResource[0m MBaaS/Resources/icons/icon-76.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76.png[0mdb506d0c3c54b941^22fa6d0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76.png00384833dcffdf42^694"[1mCpResource[0m MBaaS/Resources/icons/icon-76.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-76.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"49E63C61-9660-45A5-8893-348EE9B790E6-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-76.png build/emulator/MBaaS.app/icon-76.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-76@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76@2x.png
+s424950796.487158
+e424950796.500367
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-76@2x.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76@2x.png155"[1mCpResource[0m MBaaS/Resources/icons/icon-76@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76@2x.png[0mdac97c0c3c54b941^6327800c3c54b941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76@2x.png00384833dcffdf42^703"[1mCpResource[0m MBaaS/Resources/icons/icon-76@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-76@2x.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-76@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"4E263A45-39D7-45FD-AF28-EDF5897B8960-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-76@2x.png build/emulator/MBaaS.app/icon-76@2x.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-small.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small.png
+s424950796.439587
+e424950796.467044
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-small.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small.png155"[1mCpResource[0m MBaaS/Resources/icons/icon-small.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small.png[0m249a700c3c54b941^3f91770c3c54b941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small.png00384833dcffdf42^703"[1mCpResource[0m MBaaS/Resources/icons/icon-small.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-small.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"B14C922F-CCDF-426E-8D59-34FBF37A2A65-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-small.png build/emulator/MBaaS.app/icon-small.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon-small@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small@2x.png
+s424950796.472745
+e424950796.475542
+r1
+xCpResource
+xMBaaS/Resources/icons/icon-small@2x.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small@2x.png161"[1mCpResource[0m MBaaS/Resources/icons/icon-small@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small@2x.png[0mb01c790c3c54b941^cac4790c3c54b941^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small@2x.png00384833dcffdf42^712"[1mCpResource[0m MBaaS/Resources/icons/icon-small@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon-small@2x.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon-small@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"399337CC-B891-4EA6-882F-FCEC2C13C744-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon-small@2x.png build/emulator/MBaaS.app/icon-small@2x.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon.png
+s424950796.426634
+e424950796.433434
+r1
+xCpResource
+xMBaaS/Resources/icons/icon.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon.png143"[1mCpResource[0m MBaaS/Resources/icons/icon.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon.png[0md0626d0c3c54b941^8e036f0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon.png00384833dcffdf42^685"[1mCpResource[0m MBaaS/Resources/icons/icon.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"7E8FCC2B-B2E1-48EE-AE6D-402D5184B439-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon.png build/emulator/MBaaS.app/icon.png
+r0
+
+CCpResource MBaaS/Resources/icons/icon@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon@2x.png
+s424950796.430887
+e424950796.434711
+r1
+xCpResource
+xMBaaS/Resources/icons/icon@2x.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon@2x.png149"[1mCpResource[0m MBaaS/Resources/icons/icon@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon@2x.png[0m06656e0c3c54b941^04596f0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon@2x.png00384833dcffdf42^694"[1mCpResource[0m MBaaS/Resources/icons/icon@2x.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/icon@2x.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/icons/icon@2x.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"01376930-8711-4FFA-9DFB-08DF246F60CA-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/icons/icon@2x.png build/emulator/MBaaS.app/icon@2x.png
+r0
+
+CCpResource MBaaS/Resources/splash/Default-568h@2x~iphone.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-568h@2x~iphone.png
+s424950796.484078
+e424950796.487693
+r1
+xCpResource
+xMBaaS/Resources/splash/Default-568h@2x~iphone.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-568h@2x~iphone.png180"[1mCpResource[0m MBaaS/Resources/splash/Default-568h@2x~iphone.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-568h@2x~iphone.png[0mde037c0c3c54b941^4dda7c0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-568h@2x~iphone.png00384833dcffdf42^741"[1mCpResource[0m MBaaS/Resources/splash/Default-568h@2x~iphone.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-568h@2x~iphone.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-568h@2x~iphone.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"22BF5E8B-F9AC-4A5F-A54C-56ECFA7DD73B-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/splash/Default-568h@2x~iphone.png build/emulator/MBaaS.app/Default-568h@2x~iphone.png
+r0
+
+CCpResource MBaaS/Resources/splash/Default-Landscape@2x~ipad.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png
+s424953573.806379
+e424953573.837500
+r1
+xCpResource
+xMBaaS/Resources/splash/Default-Landscape@2x~ipad.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png186"[1mCpResource[0m MBaaS/Resources/splash/Default-Landscape@2x~ipad.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png[0m838acee54654b941^6267d6e54654b941^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png0000000000000000^750"[1mCpResource[0m MBaaS/Resources/splash/Default-Landscape@2x~ipad.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-Landscape@2x~ipad.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"87BEA232-2FDC-498A-B7A7-26D883411618-
+b80F0EF2E-EEE2-4314-B185-7A0F97B1F3D1
+
+CCpResource MBaaS/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/MBaaS.app/Default-Landscape@2x~ipad.png
+r0
+
+CCpResource MBaaS/Resources/splash/Default-Landscape~ipad.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape~ipad.png
+s424953573.806838
+e424953573.813102
+r1
+xCpResource
+xMBaaS/Resources/splash/Default-Landscape~ipad.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape~ipad.png180"[1mCpResource[0m MBaaS/Resources/splash/Default-Landscape~ipad.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape~ipad.png[0ma19ecee54654b941^fa27d0e54654b941^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape~ipad.png0000000000000000^741"[1mCpResource[0m MBaaS/Resources/splash/Default-Landscape~ipad.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Landscape~ipad.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-Landscape~ipad.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"5E7CC592-68B6-4B22-9D02-0758213A1F5D-
+b80F0EF2E-EEE2-4314-B185-7A0F97B1F3D1
+
+CCpResource MBaaS/Resources/splash/Default-Landscape~ipad.png build/emulator/MBaaS.app/Default-Landscape~ipad.png
+r0
+
+CCpResource MBaaS/Resources/splash/Default-Portrait@2x~ipad.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png
+s424953573.806902
+e424953573.816867
+r1
+xCpResource
+xMBaaS/Resources/splash/Default-Portrait@2x~ipad.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png184"[1mCpResource[0m MBaaS/Resources/splash/Default-Portrait@2x~ipad.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png[0mb1a2cee54654b941^9b21d1e54654b941^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png0000000000000000^747"[1mCpResource[0m MBaaS/Resources/splash/Default-Portrait@2x~ipad.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-Portrait@2x~ipad.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"316B2280-5D3F-4489-83EA-B0914474E277-
+b80F0EF2E-EEE2-4314-B185-7A0F97B1F3D1
+
+CCpResource MBaaS/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/MBaaS.app/Default-Portrait@2x~ipad.png
+r0
+
+CCpResource MBaaS/Resources/splash/Default-Portrait~ipad.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait~ipad.png
+s424953573.815181
+e424953573.819513
+r1
+xCpResource
+xMBaaS/Resources/splash/Default-Portrait~ipad.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait~ipad.png178"[1mCpResource[0m MBaaS/Resources/splash/Default-Portrait~ipad.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait~ipad.png[0m5bcfd0e54654b941^75ccd1e54654b941^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait~ipad.png0000000000000000^738"[1mCpResource[0m MBaaS/Resources/splash/Default-Portrait~ipad.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default-Portrait~ipad.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default-Portrait~ipad.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"23E0F2B3-71E8-4396-A99D-8D1B3DDC555A-
+b80F0EF2E-EEE2-4314-B185-7A0F97B1F3D1
+
+CCpResource MBaaS/Resources/splash/Default-Portrait~ipad.png build/emulator/MBaaS.app/Default-Portrait~ipad.png
+r0
+
+CCpResource MBaaS/Resources/splash/Default@2x~iphone.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png
+s424950796.480040
+e424950796.482782
+r1
+xCpResource
+xMBaaS/Resources/splash/Default@2x~iphone.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png170"[1mCpResource[0m MBaaS/Resources/splash/Default@2x~iphone.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png[0m76f97a0c3c54b941^1c997b0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png00384833dcffdf42^726"[1mCpResource[0m MBaaS/Resources/splash/Default@2x~iphone.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default@2x~iphone.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"49B6FD8C-07E4-4FF9-885B-851B46CEC6A8-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/splash/Default@2x~iphone.png build/emulator/MBaaS.app/Default@2x~iphone.png
+s425211510.566122
+e425211510.570650
+r1
+xCpResource
+xMBaaS/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/MBaaS.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/MBaaS.app/Default@2x~iphone.png110"[1mCpResource[0m MBaaS/Resources/splash/Default@2x~iphone.png build/emulator/MBaaS.app/Default@2x~iphone.png210791763658b941^091792763658b941^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default@2x~iphone.png0000000000000000^666"[1mCpResource[0m MBaaS/Resources/splash/Default@2x~iphone.png build/emulator/MBaaS.app/Default@2x~iphone.png    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default@2x~iphone.png /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"8310B4B6-AC53-4895-BA36-56DD7A70E05D-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CCpResource MBaaS/Resources/splash/Default~iphone.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png
+s424950796.480564
+e424950796.486209
+r1
+xCpResource
+xMBaaS/Resources/splash/Default~iphone.png
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png164"[1mCpResource[0m MBaaS/Resources/splash/Default~iphone.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png[0mb9187b0c3c54b941^fa7c7c0c3c54b941^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png00384833dcffdf42^717"[1mCpResource[0m MBaaS/Resources/splash/Default~iphone.png [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default~iphone.png /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"831C78FC-CDA0-48BC-821C-AE469CA2915C-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CCpResource MBaaS/Resources/splash/Default~iphone.png build/emulator/MBaaS.app/Default~iphone.png
+s425211510.566122
+e425211510.571173
+r1
+xCpResource
+xMBaaS/Resources/splash/Default~iphone.png
+xbuild/emulator/MBaaS.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/MBaaS.app/Default~iphone.png104"[1mCpResource[0m MBaaS/Resources/splash/Default~iphone.png build/emulator/MBaaS.app/Default~iphone.png420791763658b941^0d3992763658b941^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Default~iphone.png0000000000000000^657"[1mCpResource[0m MBaaS/Resources/splash/Default~iphone.png build/emulator/MBaaS.app/Default~iphone.png    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/Resources/splash/Default~iphone.png /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"326C6AAF-0ABE-4225-AD0D-20DF49D845C9-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CGenerateDSYMFile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+s425224123.106232
+e425224123.318912
+r1
+xGenerateDSYMFile
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Generate /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM93"[1mGenerateDSYMFile[0m [1mbuild/emulator/MBaaS.app.dSYM[0m build/emulator/MBaaS.app/MBaaSa2441bbb6758b941^b1a751bb6758b941^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM/0000000000000000^631"[1mGenerateDSYMFile[0m [1mbuild/emulator/MBaaS.app.dSYM[0m build/emulator/MBaaS.app/MBaaS    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM36"A32096B7-36F9-438A-AA87-962BFC32DF9A-
+bE2FB3A33-472E-475B-B227-A96CBCB91E5D
+
+CGenerateDSYMFile /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+s424967891.193726
+e424967891.296304
+r1
+xGenerateDSYMFile
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Generate /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM197"[1mGenerateDSYMFile[0m [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS4fae31d37e54b941^b6da4bd37e54b941^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM/0000000000000000^735"[1mGenerateDSYMFile[0m [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS -o /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app.dSYM36"7FDACD3D-51F5-4C28-9E8F-A873785D18A5-
+b9AA2BE87-A485-4552-B1FF-B92F459EB0AA
+
+CLd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS normal i386
+s425211511.652765
+e425211514.088344
+r1
+xLd
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+xnormal
+xi386
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MBaaS.LinkFileList
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Link /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS53"[1mLd[0m build/emulator/MBaaS.app/MBaaS normal i386e431a7773658b941^be9f167a3658b941^---0#0#1#--1694"[1mLd[0m build/emulator/MBaaS.app/MBaaS normal i386    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -filelist /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MBaaS.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework AssetsLibrary /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MBaaS_dependency_info.dat -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS36"E9E3767F-20DC-4204-9699-A1A68530B021-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CLd /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS normal i386
+s424959670.320377
+e424959671.941481
+r1
+xLd
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS
+xnormal
+xi386
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MBaaS.LinkFileList
+d/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/main.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MainViewController.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/AppDelegate+notification.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/PushPlugin.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVDevice.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVInAppBrowser.o
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/CDVSplashScreen.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Link /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS105"[1mLd[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS normal i386471c52b65e54b941^4207f1b75e54b941^---0#0#1#--1746"[1mLd[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS normal i386    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -filelist /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MBaaS.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework AssetsLibrary /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Objects-normal/i386/MBaaS_dependency_info.dat -o /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/MBaaS36"E70294F4-F371-4175-8F1C-73F4FB4A5B56-
+b393CC805-9630-421D-8346-CE49F27B3A9B
+
+CPhaseScriptExecution Copy\ www\ directory /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Script-304B58A110DAC018002A0835.sh
+s425224122.651994
+e425224123.083318
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.369s
+ouser	0m0.138s
+osys	0m0.166s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'136"[1mPhaseScriptExecution[0m Copy\ www\ directory build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Script-304B58A110DAC018002A0835.sh1a6ba7ba6758b941^7d5e15bb6758b941^-42"real	0m0.369suser	0m0.138ssys	0m0.166s3(21%IDEActivityLogMessage2@14"real	0m0.369s-425224123#1#14#-0#-----2@14"user	0m0.138s-425224123#15#14#-0#-----2@13"sys	0m0.166s-425224123#29#13#-0#-----0#0#1#--350"[1mPhaseScriptExecution[0m Copy\ www\ directory build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Script-304B58A110DAC018002A0835.sh    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    /bin/sh -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/Script-304B58A110DAC018002A0835.sh36"EB3F165B-2D8F-4119-9978-74776FBFAF58-
+bE2FB3A33-472E-475B-B227-A96CBCB91E5D
+
+CProcessInfoPlistFile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist
+s425224122.614076
+e425224122.641949
+r1
+xProcessInfoPlistFile
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist95"[1mProcessInfoPlistFile[0m build/emulator/MBaaS.app/Info.plist [1mMBaaS/MBaaS-Info.plist[0m09529dba6758b941^0857a4ba6758b941^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist0000000000000000^719"[1mProcessInfoPlistFile[0m build/emulator/MBaaS.app/Info.plist [1mMBaaS/MBaaS-Info.plist[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist -genpkginfo /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist36"694144F9-DAE1-4F67-AACB-1F649CA228EA-
+bE2FB3A33-472E-475B-B227-A96CBCB91E5D
+
+CProcessInfoPlistFile /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist
+s424967889.820257
+e424967889.948923
+r1
+xProcessInfoPlistFile
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist147"[1mProcessInfoPlistFile[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist [1mMBaaS/MBaaS-Info.plist[0m7a37d2d17e54b941^78edf2d17e54b941^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist0000000000000000^771"[1mProcessInfoPlistFile[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist [1mMBaaS/MBaaS-Info.plist[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Info.plist -genpkginfo /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app/Info.plist36"2E8A97F8-1096-4569-9741-77346DBA266E-
+b9AA2BE87-A485-4552-B1FF-B92F459EB0AA
+
+CProcessPCH /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-azenbtvldkhnyceemwyqqsdjexlr/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424950810.006770
+e424950810.502556
+r1
+xProcessPCH
+x/var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-azenbtvldkhnyceemwyqqsdjexlr/MBaaS-Prefix.pch.pch
+xMBaaS/MBaaS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile MBaaS/MBaaS-Prefix.pch290"[1mProcessPCH[0m /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-azenbtvldkhnyceemwyqqsdjexlr/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3cd9011a3c54b941^c1a8801a3c54b941^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch0000000000000000^3697"[1mProcessPCH[0m /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-azenbtvldkhnyceemwyqqsdjexlr/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator --serialize-diagnostics /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-azenbtvldkhnyceemwyqqsdjexlr/MBaaS-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-azenbtvldkhnyceemwyqqsdjexlr/MBaaS-Prefix.pch.d -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch -o /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-azenbtvldkhnyceemwyqqsdjexlr/MBaaS-Prefix.pch.pch36"E51648B4-E7E9-48B6-A00B-9BE79C1BF63B-
+bCA2EA2B5-A72C-4EB8-A941-053F44FDFF4A
+
+CProcessPCH /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-cxjyzphjyufbbsdnsqqklhvurkod/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424953584.303219
+e424953585.228302
+r1
+xProcessPCH
+x/var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-cxjyzphjyufbbsdnsqqklhvurkod/MBaaS-Prefix.pch.pch
+xMBaaS/MBaaS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile MBaaS/MBaaS-Prefix.pch290"[1mProcessPCH[0m /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-cxjyzphjyufbbsdnsqqklhvurkod/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerccb84df04654b941^50733af14654b941^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch0000000000000000^3697"[1mProcessPCH[0m /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-cxjyzphjyufbbsdnsqqklhvurkod/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator --serialize-diagnostics /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-cxjyzphjyufbbsdnsqqklhvurkod/MBaaS-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-cxjyzphjyufbbsdnsqqklhvurkod/MBaaS-Prefix.pch.d -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch -o /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-cxjyzphjyufbbsdnsqqklhvurkod/MBaaS-Prefix.pch.pch36"A3560228-15CF-4BAC-9B0A-F15C08E2E756-
+b80F0EF2E-EEE2-4314-B185-7A0F97B1F3D1
+
+CProcessPCH /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425211510.580892
+e425211511.104508
+r1
+xProcessPCH
+x/var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.pch
+xMBaaS/MBaaS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile MBaaS/MBaaS-Prefix.pch290"[1mProcessPCH[0m /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfbcd94763658b941^2fc41a773658b941^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch0000000000000000^3697"[1mProcessPCH[0m /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.pch MBaaS/MBaaS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/MBaaS-project-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/usr/local/lib/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/UninstalledProducts/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/MBaaS.build/Debug-iphonesimulator/MBaaS.build/DerivedSources -F/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator --serialize-diagnostics /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.d -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/MBaaS/MBaaS-Prefix.pch -o /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBaaS-Prefix-elnkywcewgxrabbxzcsrvapxpoyo/MBaaS-Prefix.pch.pch36"13AE0994-6C2F-45F5-8907-845277802AD0-
+b04036344-5856-4EEE-B1B7-738DC0E9DF3E
+
+CTouch /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app
+s425224123.327717
+e425224123.333786
+r1
+xTouch
+x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Touch /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app38"[1mTouch[0m build/emulator/MBaaS.app1ff553bb6758b941^437355bb6758b941^---0#0#1#--407"[1mTouch[0m build/emulator/MBaaS.app    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"F2C709EF-3D4E-4B56-BF5B-3376E8A3C417-
+bE2FB3A33-472E-475B-B227-A96CBCB91E5D
+
+CTouch /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app
+s424967891.305607
+e424967891.338785
+r1
+xTouch
+x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Touch /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app90"[1mTouch[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app0d544ed37e54b941^aeba56d37e54b941^---0#0#1#--459"[1mTouch[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/MBaaS.app36"330FAA3C-D6A3-4191-9AEE-343CE5661F78-
+b9AA2BE87-A485-4552-B1FF-B92F459EB0AA
+
