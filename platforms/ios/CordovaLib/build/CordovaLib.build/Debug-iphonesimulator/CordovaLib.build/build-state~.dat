@@ -1,1184 +1,0 @@
-TCordovaLib
-v6
-r1
-cCheck dependencies
-cCpHeader Classes/NSDictionary+Extensions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-cCpHeader Classes/CDVInvokedUrlCommand.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-cCpHeader Classes/NSData+Base64.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-cCpHeader Classes/CDVPluginResult.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-cCpHeader Classes/CDVPlugin.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-cCpHeader Classes/CDVDebug.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-cCpHeader Classes/CDVWhitelist.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-cCpHeader Classes/CDVURLProtocol.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-cCpHeader Classes/CDVViewController.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-cCpHeader Classes/CDVCommandDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-cCpHeader Classes/CDV.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
-cCpHeader Classes/CDVAvailability.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-cCpHeader Classes/CDVLocalStorage.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-cCpHeader Classes/UIDevice+Extensions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-cCpHeader Classes/NSArray+Comparisons.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-cCpHeader Classes/CDVCommandQueue.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-cCpHeader Classes/CDVCommandDelegateImpl.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-cCpHeader Classes/CDVShared.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-cCpHeader Classes/CDVConfigParser.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-cCpHeader Classes/CDVJSON.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-cCpHeader Classes/CDVWebViewDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-cCpHeader Classes/CDVUserAgentUtil.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-cCpHeader Classes/CDVTimer.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-cProcessPCH /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000537C632600000000000003B4
-t1400660774
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000537C6330000000000000019E
-t1400660784
-s414
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDV.h
-c0000000053A4044D0000000000000516
-t1403257933
-s1302
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-c0000000053A4044D0000000000000CDD
-t1403257933
-s3293
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-c0000000053A4044D00000000000008BA
-t1403257933
-s2234
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-c0000000053A4044D00000000000004B5
-t1403257933
-s1205
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-c0000000053A4044D0000000000001491
-t1403257933
-s5265
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-c0000000053A4044D0000000000000503
-t1403257933
-s1283
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-c0000000053A4044D0000000000001EB7
-t1403257933
-s7863
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-c0000000053A4044D00000000000004CB
-t1403257933
-s1227
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-c0000000053A4044D0000000000000EB2
-t1403257933
-s3762
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVDebug.h
-c0000000053A4044D0000000000000401
-t1403257933
-s1025
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-c0000000053A4044D00000000000007E6
-t1403257933
-s2022
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-c0000000053A4044D0000000000000DDE
-t1403257933
-s3550
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h
-c0000000053A4044D00000000000003DA
-t1403257933
-s986
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.m
-c0000000053A4044E00000000000009A1
-t1403257934
-s2465
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-c0000000053A4044E00000000000006CF
-t1403257934
-s1743
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-c0000000053A4044E0000000000004C7E
-t1403257934
-s19582
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-c0000000053A4044E0000000000000892
-t1403257934
-s2194
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-c0000000053A4044E00000000000016AE
-t1403257934
-s5806
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-c0000000053A4044E0000000000000C13
-t1403257934
-s3091
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-c0000000053A4044E0000000000001B29
-t1403257934
-s6953
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-c0000000053A4044E0000000000000408
-t1403257934
-s1032
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.h
-c0000000053A4044E00000000000003E6
-t1403257934
-s998
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.m
-c0000000053A4044E00000000000006B6
-t1403257934
-s1718
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.h
-c0000000053A4044E000000000000038D
-t1403257934
-s909
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.m
-c0000000053A4044E0000000000000AA2
-t1403257934
-s2722
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-c0000000053A4044E000000000000041C
-t1403257934
-s1052
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-c0000000053A4044E000000000000259E
-t1403257934
-s9630
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-c0000000053A4044E0000000000000421
-t1403257934
-s1057
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-c0000000053A4044E000000000000133E
-t1403257934
-s4926
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.h
-c0000000053A4044E0000000000000ACC
-t1403257934
-s2764
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.m
-c0000000053A4044E0000000000008FB3
-t1403257934
-s36787
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-c0000000053A4044E00000000000005A2
-t1403257934
-s1442
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-c0000000053A4044E0000000000003764
-t1403257934
-s14180
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-c0000000053A4044E00000000000004B4
-t1403257934
-s1204
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-c0000000053A4044E0000000000002814
-t1403257934
-s10260
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-c0000000053A4044E0000000000000392
-t1403257934
-s914
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-c0000000053A4044E00000000000004D8
-t1403257934
-s1240
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-c0000000053A4044E000000000000037D
-t1403257934
-s893
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-c0000000053A4044E00000000000022CC
-t1403257934
-s8908
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-c0000000053A4044E00000000000005DA
-t1403257934
-s1498
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-c0000000053A4044E0000000000001059
-t1403257934
-s4185
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-c0000000053A4044E00000000000003A0
-t1403257934
-s928
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-c0000000053A4044E0000000000000584
-t1403257934
-s1412
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-c0000000053A4044E0000000000000476
-t1403257934
-s1142
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-c0000000053A4044E0000000000000620
-t1403257934
-s1568
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-c0000000053A4044E0000000000000346
-t1403257934
-s838
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-t1403257995
-s61368
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-t1403257995
-s61348
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-t1403257995
-s27440
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-t1403257993
-s18240
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-t1403257995
-s10560
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-t1403257994
-s106436
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-t1403257994
-s57112
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-t1403257993
-s36632
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
-t1403257995
-s9032
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-t1403257995
-s22600
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-t1403257994
-s68880
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-t1403257995
-s50752
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-t1403257995
-s163000
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-t1403257995
-s67884
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-t1403257994
-s42420
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
-c0000000053A404870000000000000CCB
-t1403257991
-s3275
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-t1403257994
-s7212
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-t1403257993
-s10900
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-t1403257993
-s17320
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-t1403257993
-s6768
-
-N/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-t1403257995
-s9188
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-t2
-s0
-
-N/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a
-t2
-s0
-
-N/var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.pch
-t1403257993
-s3239160
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6a8971063c54b941^a01598073c54b941^---0#1#1#--18"Check dependencies36"8390F486-AAC4-4D76-9BA4-B8AA71483181-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950794.957126
-e424950795.270052
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m232"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o [1mClasses/CDVCommandDelegateImpl.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler992df50a3c54b941^5435450b3c54b941^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3798"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o [1mClasses/CDVCommandDelegateImpl.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"F7CE4689-702D-4998-91EF-5C3B00F19356-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950794.909843
-e424950795.245334
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o [1mClasses/CDVCommandQueue.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerde1de90a3c54b941^7dec3e0b3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3756"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o [1mClasses/CDVCommandQueue.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"F6101ABE-C1BE-4808-85EF-48BECD76BCE1-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950795.193328
-e424950795.270623
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o [1mClasses/CDVConfigParser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1aa7310b3c54b941^895f450b3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3756"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o [1mClasses/CDVConfigParser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"96EBCC41-6515-416C-97E7-BF541E1DFA5C-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.765553
-e424950793.855100
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m228"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o [1mClasses/CDVInvokedUrlCommand.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfb1fc4093c54b941^4623db093c54b941^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3786"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o [1mClasses/CDVInvokedUrlCommand.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"42F24C54-1835-4983-A591-5A00BEBECC85-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950795.246747
-e424950795.284677
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.m202"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o [1mClasses/CDVJSON.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler05513f0b3c54b941^98fb480b3c54b941^---0#0#1#-19%DVTDocumentLocation2@96"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3708"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o [1mClasses/CDVJSON.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"7DA713D7-9AA2-490A-835E-D1E3B46633B6-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950794.059808
-e424950794.908934
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o [1mClasses/CDVLocalStorage.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0b7a0f0a3c54b941^7731e90a3c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3756"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o [1mClasses/CDVLocalStorage.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"F7F29998-2FE0-4EEF-9585-F64C23351DF0-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.850909
-e424950794.908274
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.m206"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o [1mClasses/CDVPlugin.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1af8d9093c54b941^1782e80a3c54b941^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3720"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o [1mClasses/CDVPlugin.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"4DB4B75F-D143-40B7-9B5B-1C1510FD8242-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.766293
-e424950793.874293
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o [1mClasses/CDVPluginResult.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbe4cc4093c54b941^9011e0093c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3756"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o [1mClasses/CDVPluginResult.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"EB6AA0BC-AA02-4CC4-80AE-EFD254B8164D-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950795.371198
-e424950795.489144
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.m206"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o [1mClasses/CDVShared.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb6305f0b3c54b941^d2567d0b3c54b941^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3720"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o [1mClasses/CDVShared.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"410DFDCF-8EF1-4880-B667-EADDD6CF5E99-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950795.286049
-e424950795.369731
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.m204"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o [1mClasses/CDVTimer.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbb5f490b3c54b941^c2a65e0b3c54b941^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3714"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o [1mClasses/CDVTimer.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"29465DD0-A048-406B-8134-53F2D3D0D5CA-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.876381
-e424950794.907837
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m216"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o [1mClasses/CDVURLProtocol.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfe7fe0093c54b941^ba68e80a3c54b941^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3750"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o [1mClasses/CDVURLProtocol.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"CFF3101F-FA63-42C4-9AB4-316605EFB56A-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950795.271464
-e424950795.530963
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m220"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o [1mClasses/CDVUserAgentUtil.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilereca5450b3c54b941^bb0b880b3c54b941^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3762"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o [1mClasses/CDVUserAgentUtil.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"E1BE3E82-E520-4ABD-BE9A-FBACBD57FCDC-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.990881
-e424950795.807055
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.m222"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o [1mClasses/CDVViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1cd1fd093c54b941^ae9bce0b3c54b941^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3768"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o [1mClasses/CDVViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"46CA8C3F-D8B1-478B-9CBF-E1C886B3C6CD-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950795.272113
-e424950795.555860
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m224"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o [1mClasses/CDVWebViewDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb8cc450b3c54b941^f44d8e0b3c54b941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3774"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o [1mClasses/CDVWebViewDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"02BC881C-7F15-4C17-A572-03AB54496940-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.859602
-e424950794.054609
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.m212"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o [1mClasses/CDVWhitelist.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera836dc093c54b941^59170f0a3c54b941^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3738"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o [1mClasses/CDVWhitelist.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"1B00BA5C-3F67-4744-B626-508AF233020D-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950794.909790
-e424950794.955213
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m226"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o [1mClasses/NSArray+Comparisons.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf209e90a3c54b941^acc8f40a3c54b941^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3780"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o [1mClasses/NSArray+Comparisons.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"7694F1FA-F778-4205-90BE-9C41D5E16B91-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.765746
-e424950793.849303
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.m214"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o [1mClasses/NSData+Base64.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0b28c4093c54b941^4f93d9093c54b941^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3744"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o [1mClasses/NSData+Base64.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"175CF051-7DC3-4C61-B62B-8CEC8ADD40D4-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.765552
-e424950793.855660
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m234"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o [1mClasses/NSDictionary+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4622c4093c54b941^cbd9db093c54b941^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3804"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o [1mClasses/NSDictionary+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"A0077BAE-2FB4-4682-8109-38D4436232A9-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950793.857836
-e424950793.989398
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m246"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o [1mClasses/NSMutableArray+QueueAdditions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler62bfdb093c54b941^4149fd093c54b941^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3840"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o [1mClasses/NSMutableArray+QueueAdditions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"F5F0BE3C-AB15-468C-884D-5ABA81EC27FD-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950794.909555
-e424950795.191914
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-x/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m226"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o [1mClasses/UIDevice+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerecfbe80a3c54b941^7921310b3c54b941^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3780"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o [1mClasses/UIDevice+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG -include /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"88770446-461A-4256-848C-6936713921A9-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDV.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
-s424950791.622319
-e424950791.632759
-r1
-xCpHeader
-xClasses/CDV.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h127"[1mCpHeader[0m Classes/CDV.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h[0mb66a9f073c54b941^b22ea2073c54b941^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h00384833dcffdf42^680"[1mCpHeader[0m Classes/CDV.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDV.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDV.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"D628C915-A20C-495B-8183-E848EDB54A97-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVAvailability.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-s424950791.625973
-e424950791.632834
-r1
-xCpHeader
-xClasses/CDVAvailability.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h151"[1mCpHeader[0m Classes/CDVAvailability.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h[0mb057a0073c54b941^b938a2073c54b941^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h00384833dcffdf42^716"[1mCpHeader[0m Classes/CDVAvailability.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"01D69665-9D84-4ADD-A744-BC7AA438DD4D-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVCommandDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-s424950791.621300
-e424950791.630400
-r1
-xCpHeader
-xClasses/CDVCommandDelegate.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h157"[1mCpHeader[0m Classes/CDVCommandDelegate.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h[0ma9339f073c54b941^3672a1073c54b941^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h00384833dcffdf42^725"[1mCpHeader[0m Classes/CDVCommandDelegate.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"94E37DB0-EC33-492F-A85B-7D1E31FAD254-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVCommandDelegateImpl.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-s424950791.639518
-e424950791.674579
-r1
-xCpHeader
-xClasses/CDVCommandDelegateImpl.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h165"[1mCpHeader[0m Classes/CDVCommandDelegateImpl.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h[0md462a4073c54b941^9e95ac073c54b941^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h00384833dcffdf42^737"[1mCpHeader[0m Classes/CDVCommandDelegateImpl.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"DC80CB61-63F0-4131-AD8B-851AE7DFFE51-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVCommandQueue.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-s424950791.634716
-e424950791.673545
-r1
-xCpHeader
-xClasses/CDVCommandQueue.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h151"[1mCpHeader[0m Classes/CDVCommandQueue.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h[0m5890a2073c54b941^7973ac073c54b941^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h00384833dcffdf42^716"[1mCpHeader[0m Classes/CDVCommandQueue.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"F2C34F21-5786-48AF-B414-BCF34568D0F6-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVConfigParser.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-s424950791.670803
-e424950791.676105
-r1
-xCpHeader
-xClasses/CDVConfigParser.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h151"[1mCpHeader[0m Classes/CDVConfigParser.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h[0mabd1ab073c54b941^111aad073c54b941^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h00384833dcffdf42^716"[1mCpHeader[0m Classes/CDVConfigParser.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"BFB8863C-F962-49E8-883A-3EDE004A94D9-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVDebug.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-s424950791.611924
-e424950791.618086
-r1
-xCpHeader
-xClasses/CDVDebug.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h137"[1mCpHeader[0m Classes/CDVDebug.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h[0mbabd9c073c54b941^a8539e073c54b941^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h00384833dcffdf42^695"[1mCpHeader[0m Classes/CDVDebug.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVDebug.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"C4636576-E170-4C90-96CF-54CFC2EA31FC-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVInvokedUrlCommand.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-s424950791.597118
-e424950791.609146
-r1
-xCpHeader
-xClasses/CDVInvokedUrlCommand.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h161"[1mCpHeader[0m Classes/CDVInvokedUrlCommand.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h[0me8f498073c54b941^a5109c073c54b941^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h00384833dcffdf42^731"[1mCpHeader[0m Classes/CDVInvokedUrlCommand.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"BCA2D3F0-590F-4CC1-AD5F-1759367220BC-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVJSON.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-s424950791.674951
-e424950791.681134
-r1
-xCpHeader
-xClasses/CDVJSON.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h135"[1mCpHeader[0m Classes/CDVJSON.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h[0m97e4ac073c54b941^3d64ae073c54b941^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h00384833dcffdf42^692"[1mCpHeader[0m Classes/CDVJSON.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVJSON.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"A39B0F23-97BD-4851-8E4B-96F51B1F69AA-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVLocalStorage.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-s424950791.629527
-e424950791.637444
-r1
-xCpHeader
-xClasses/CDVLocalStorage.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h151"[1mCpHeader[0m Classes/CDVLocalStorage.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h[0m5341a1073c54b941^c83fa3073c54b941^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h00384833dcffdf42^716"[1mCpHeader[0m Classes/CDVLocalStorage.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"CB2E07A9-FA99-42CB-9FF2-7181F8CB6AE8-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVPlugin.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-s424950791.610418
-e424950791.617720
-r1
-xCpHeader
-xClasses/CDVPlugin.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h139"[1mCpHeader[0m Classes/CDVPlugin.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h[0m9f769c073c54b941^cd3b9e073c54b941^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h00384833dcffdf42^698"[1mCpHeader[0m Classes/CDVPlugin.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"51F9D382-FB88-4553-8E0B-970534C6D284-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVPluginResult.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-s424950791.599364
-e424950791.609535
-r1
-xCpHeader
-xClasses/CDVPluginResult.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h151"[1mCpHeader[0m Classes/CDVPluginResult.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h[0m4d8499073c54b941^de1e9c073c54b941^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h00384833dcffdf42^716"[1mCpHeader[0m Classes/CDVPluginResult.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"0965A611-65FA-42CE-9C0D-CD7EA8C52159-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-s424950791.643318
-e424950791.673817
-r1
-xCpHeader
-xClasses/CDVScreenOrientationDelegate.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h177"[1mCpHeader[0m Classes/CDVScreenOrientationDelegate.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h[0mf9bea4073c54b941^598aac073c54b941^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h00384833dcffdf42^755"[1mCpHeader[0m Classes/CDVScreenOrientationDelegate.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"B4EE4904-27E0-4D75-AEC4-0893E467D8F8-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVShared.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-s424950791.641079
-e424950791.669298
-r1
-xCpHeader
-xClasses/CDVShared.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVShared.h139"[1mCpHeader[0m Classes/CDVShared.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVShared.h[0m6d3ca4073c54b941^6765ab073c54b941^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVShared.h00384833dcffdf42^698"[1mCpHeader[0m Classes/CDVShared.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVShared.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"0CAAD15B-E001-4E83-96E9-6F70C687D94F-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVTimer.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-s424950791.678822
-e424950791.682879
-r1
-xCpHeader
-xClasses/CDVTimer.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h137"[1mCpHeader[0m Classes/CDVTimer.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h[0mbedead073c54b941^67d2ae073c54b941^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h00384833dcffdf42^695"[1mCpHeader[0m Classes/CDVTimer.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVTimer.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"95B46426-005C-414A-85AA-55DE237FFBDF-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVURLProtocol.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-s424950791.619333
-e424950791.623908
-r1
-xCpHeader
-xClasses/CDVURLProtocol.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h149"[1mCpHeader[0m Classes/CDVURLProtocol.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h[0m53b49e073c54b941^71cb9f073c54b941^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h00384833dcffdf42^713"[1mCpHeader[0m Classes/CDVURLProtocol.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"2958249C-AD00-4F47-B536-B9025E4EAF0D-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVUserAgentUtil.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-s424950791.676787
-e424950791.681906
-r1
-xCpHeader
-xClasses/CDVUserAgentUtil.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h153"[1mCpHeader[0m Classes/CDVUserAgentUtil.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h[0m0058ad073c54b941^2e92ae073c54b941^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h00384833dcffdf42^719"[1mCpHeader[0m Classes/CDVUserAgentUtil.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"91FC1F35-D8EB-465F-836A-FEC6E6A66CFF-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVViewController.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-s424950791.621208
-e424950791.627424
-r1
-xCpHeader
-xClasses/CDVViewController.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h155"[1mCpHeader[0m Classes/CDVViewController.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h[0me42d9f073c54b941^c79fa0073c54b941^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h00384833dcffdf42^722"[1mCpHeader[0m Classes/CDVViewController.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVViewController.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"DA766F48-228B-4B90-A2CC-850C99C28D85-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVWebViewDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-s424950791.676260
-e424950791.680431
-r1
-xCpHeader
-xClasses/CDVWebViewDelegate.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h157"[1mCpHeader[0m Classes/CDVWebViewDelegate.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h[0mf642ad073c54b941^ec4bae073c54b941^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h00384833dcffdf42^725"[1mCpHeader[0m Classes/CDVWebViewDelegate.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"3076FFF7-5D37-46AA-9310-23B71B98C336-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/CDVWhitelist.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-s424950791.612605
-e424950791.620420
-r1
-xCpHeader
-xClasses/CDVWhitelist.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h145"[1mCpHeader[0m Classes/CDVWhitelist.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h[0m64e89c073c54b941^d4d49e073c54b941^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h00384833dcffdf42^707"[1mCpHeader[0m Classes/CDVWhitelist.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"155A18F2-C041-498B-99A8-2C64CC90E4D9-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/NSArray+Comparisons.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-s424950791.634198
-e424950791.639521
-r1
-xCpHeader
-xClasses/NSArray+Comparisons.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h159"[1mCpHeader[0m Classes/NSArray+Comparisons.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h[0m5d70a2073c54b941^bd1ea4073c54b941^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h00384833dcffdf42^728"[1mCpHeader[0m Classes/NSArray+Comparisons.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"3B83A6D0-756E-49FB-8C69-1DC56403AD93-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/NSData+Base64.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-s424950791.598518
-e424950791.609398
-r1
-xCpHeader
-xClasses/NSData+Base64.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h147"[1mCpHeader[0m Classes/NSData+Base64.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h[0md25299073c54b941^61189c073c54b941^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h00384833dcffdf42^710"[1mCpHeader[0m Classes/NSData+Base64.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"E4564431-941A-4B2E-8DDA-CDC4D231E74F-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/NSDictionary+Extensions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-s424950791.596216
-e424950791.608909
-r1
-xCpHeader
-xClasses/NSDictionary+Extensions.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h167"[1mCpHeader[0m Classes/NSDictionary+Extensions.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h[0m3bc398073c54b941^62f59b073c54b941^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h0038e31d65eedf42^740"[1mCpHeader[0m Classes/NSDictionary+Extensions.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"ED2E3CA6-8962-4546-8759-861D024BEBA7-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-s424950791.612093
-e424950791.617918
-r1
-xCpHeader
-xClasses/NSMutableArray+QueueAdditions.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h179"[1mCpHeader[0m Classes/NSMutableArray+QueueAdditions.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h[0m7ac89c073c54b941^734c9e073c54b941^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h00384833dcffdf42^758"[1mCpHeader[0m Classes/NSMutableArray+QueueAdditions.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"77D6C4A9-5BAC-43CB-A529-2874D95485C0-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CCpHeader Classes/UIDevice+Extensions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-s424950791.633002
-e424950791.642101
-r1
-xCpHeader
-xClasses/UIDevice+Extensions.h
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h159"[1mCpHeader[0m Classes/UIDevice+Extensions.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h[0m7022a2073c54b941^b262a4073c54b941^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h00384833dcffdf42^728"[1mCpHeader[0m Classes/UIDevice+Extensions.h [1m/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h[0m    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include/Cordova36"A20AE43D-A2CF-4D66-8A55-682C184CC88F-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CLibtool /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a normal i386
-s424950795.816247
-e424950795.920237
-r1
-xLibtool
-x/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"[1mLibtool[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a normal i386107"[1mLibtool[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a normal i386450ed10b3c54b941^1c95eb0b3c54b941^---0#0#1#--1009"[1mLibtool[0m /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -filelist /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/libCordova.a36"A834174B-FEE5-4771-AB6E-E6E66DAC2D39-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
-CProcessPCH /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424950791.693445
-e424950793.757014
-r1
-xProcessPCH
-x/var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.pch
-xCordovaLib_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch299"[1mProcessPCH[0m /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1bbab1073c54b941^efcbc1093c54b941^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3724"[1mProcessPCH[0m /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=82 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/popcornmac3/desktop/kony/mbaas/platforms/ios/build/emulator -DDEBUG --serialize-diagnostics /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.d -c /Users/popcornmac3/Desktop/kony/mbaas/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/g7/bn8pn4wx24qdbr0_tgc335000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-hdjljgrkcgkgrjhizoanmdldpkzs/CordovaLib_Prefix.pch.pch36"8459BF5F-5219-4629-9A5B-649FCF284C22-
-bA0EE99AA-3B42-40FD-B052-E00DFB08B238
-
